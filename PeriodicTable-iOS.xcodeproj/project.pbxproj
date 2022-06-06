@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21C9D41284D928300C43273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D40284D928300C43273 /* AppDelegate.swift */; };
+		E21C9D43284D928300C43273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D42284D928300C43273 /* SceneDelegate.swift */; };
+		E21C9D45284D928300C43273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D44284D928300C43273 /* ViewController.swift */; };
+		E21C9D48284D928300C43273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21C9D46284D928300C43273 /* Main.storyboard */; };
+		E21C9D4A284D928300C43273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21C9D49284D928300C43273 /* Assets.xcassets */; };
+		E21C9D4D284D928300C43273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21C9D4B284D928300C43273 /* LaunchScreen.storyboard */; };
+		E21C9D58284D928400C43273 /* PeriodicTable_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D57284D928400C43273 /* PeriodicTable_iOSTests.swift */; };
+		E21C9D62284D928400C43273 /* PeriodicTable_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D61284D928400C43273 /* PeriodicTable_iOSUITests.swift */; };
+		E21C9D64284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D63284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E21C9D54284D928400C43273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21C9D35284D928200C43273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21C9D3C284D928200C43273;
+			remoteInfo = "PeriodicTable-iOS";
+		};
+		E21C9D5E284D928400C43273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21C9D35284D928200C43273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21C9D3C284D928200C43273;
+			remoteInfo = "PeriodicTable-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E21C9D3D284D928200C43273 /* PeriodicTable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PeriodicTable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21C9D40284D928300C43273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E21C9D42284D928300C43273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E21C9D44284D928300C43273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E21C9D47284D928300C43273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E21C9D49284D928300C43273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E21C9D4C284D928300C43273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E21C9D4E284D928300C43273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21C9D53284D928400C43273 /* PeriodicTable-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PeriodicTable-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21C9D57284D928400C43273 /* PeriodicTable_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable_iOSTests.swift; sourceTree = "<group>"; };
+		E21C9D5D284D928400C43273 /* PeriodicTable-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PeriodicTable-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21C9D61284D928400C43273 /* PeriodicTable_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable_iOSUITests.swift; sourceTree = "<group>"; };
+		E21C9D63284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21C9D3A284D928200C43273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D50284D928400C43273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D5A284D928400C43273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21C9D34284D928200C43273 = {
+			isa = PBXGroup;
+			children = (
+				E21C9D3F284D928200C43273 /* PeriodicTable-iOS */,
+				E21C9D56284D928400C43273 /* PeriodicTable-iOSTests */,
+				E21C9D60284D928400C43273 /* PeriodicTable-iOSUITests */,
+				E21C9D3E284D928200C43273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E21C9D3E284D928200C43273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21C9D3D284D928200C43273 /* PeriodicTable-iOS.app */,
+				E21C9D53284D928400C43273 /* PeriodicTable-iOSTests.xctest */,
+				E21C9D5D284D928400C43273 /* PeriodicTable-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21C9D3F284D928200C43273 /* PeriodicTable-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E21C9D40284D928300C43273 /* AppDelegate.swift */,
+				E21C9D42284D928300C43273 /* SceneDelegate.swift */,
+				E21C9D44284D928300C43273 /* ViewController.swift */,
+				E21C9D46284D928300C43273 /* Main.storyboard */,
+				E21C9D49284D928300C43273 /* Assets.xcassets */,
+				E21C9D4B284D928300C43273 /* LaunchScreen.storyboard */,
+				E21C9D4E284D928300C43273 /* Info.plist */,
+			);
+			path = "PeriodicTable-iOS";
+			sourceTree = "<group>";
+		};
+		E21C9D56284D928400C43273 /* PeriodicTable-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E21C9D57284D928400C43273 /* PeriodicTable_iOSTests.swift */,
+			);
+			path = "PeriodicTable-iOSTests";
+			sourceTree = "<group>";
+		};
+		E21C9D60284D928400C43273 /* PeriodicTable-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E21C9D61284D928400C43273 /* PeriodicTable_iOSUITests.swift */,
+				E21C9D63284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift */,
+			);
+			path = "PeriodicTable-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21C9D3C284D928200C43273 /* PeriodicTable-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21C9D67284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOS" */;
+			buildPhases = (
+				E21C9D39284D928200C43273 /* Sources */,
+				E21C9D3A284D928200C43273 /* Frameworks */,
+				E21C9D3B284D928200C43273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeriodicTable-iOS";
+			productName = "PeriodicTable-iOS";
+			productReference = E21C9D3D284D928200C43273 /* PeriodicTable-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E21C9D52284D928400C43273 /* PeriodicTable-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21C9D6A284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOSTests" */;
+			buildPhases = (
+				E21C9D4F284D928400C43273 /* Sources */,
+				E21C9D50284D928400C43273 /* Frameworks */,
+				E21C9D51284D928400C43273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21C9D55284D928400C43273 /* PBXTargetDependency */,
+			);
+			name = "PeriodicTable-iOSTests";
+			productName = "PeriodicTable-iOSTests";
+			productReference = E21C9D53284D928400C43273 /* PeriodicTable-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E21C9D5C284D928400C43273 /* PeriodicTable-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21C9D6D284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOSUITests" */;
+			buildPhases = (
+				E21C9D59284D928400C43273 /* Sources */,
+				E21C9D5A284D928400C43273 /* Frameworks */,
+				E21C9D5B284D928400C43273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21C9D5F284D928400C43273 /* PBXTargetDependency */,
+			);
+			name = "PeriodicTable-iOSUITests";
+			productName = "PeriodicTable-iOSUITests";
+			productReference = E21C9D5D284D928400C43273 /* PeriodicTable-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21C9D35284D928200C43273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E21C9D3C284D928200C43273 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					E21C9D52284D928400C43273 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E21C9D3C284D928200C43273;
+					};
+					E21C9D5C284D928400C43273 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E21C9D3C284D928200C43273;
+					};
+				};
+			};
+			buildConfigurationList = E21C9D38284D928200C43273 /* Build configuration list for PBXProject "PeriodicTable-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21C9D34284D928200C43273;
+			productRefGroup = E21C9D3E284D928200C43273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21C9D3C284D928200C43273 /* PeriodicTable-iOS */,
+				E21C9D52284D928400C43273 /* PeriodicTable-iOSTests */,
+				E21C9D5C284D928400C43273 /* PeriodicTable-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21C9D3B284D928200C43273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21C9D4D284D928300C43273 /* LaunchScreen.storyboard in Resources */,
+				E21C9D4A284D928300C43273 /* Assets.xcassets in Resources */,
+				E21C9D48284D928300C43273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D51284D928400C43273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D5B284D928400C43273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21C9D39284D928200C43273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21C9D45284D928300C43273 /* ViewController.swift in Sources */,
+				E21C9D41284D928300C43273 /* AppDelegate.swift in Sources */,
+				E21C9D43284D928300C43273 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D4F284D928400C43273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21C9D58284D928400C43273 /* PeriodicTable_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21C9D59284D928400C43273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21C9D64284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift in Sources */,
+				E21C9D62284D928400C43273 /* PeriodicTable_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E21C9D55284D928400C43273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21C9D3C284D928200C43273 /* PeriodicTable-iOS */;
+			targetProxy = E21C9D54284D928400C43273 /* PBXContainerItemProxy */;
+		};
+		E21C9D5F284D928400C43273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21C9D3C284D928200C43273 /* PeriodicTable-iOS */;
+			targetProxy = E21C9D5E284D928400C43273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E21C9D46284D928300C43273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21C9D47284D928300C43273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E21C9D4B284D928300C43273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21C9D4C284D928300C43273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E21C9D65284D928400C43273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E21C9D66284D928400C43273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21C9D68284D928400C43273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PeriodicTable-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E21C9D69284D928400C43273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PeriodicTable-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E21C9D6B284D928400C43273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable-iOS.app/PeriodicTable-iOS";
+			};
+			name = Debug;
+		};
+		E21C9D6C284D928400C43273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable-iOS.app/PeriodicTable-iOS";
+			};
+			name = Release;
+		};
+		E21C9D6E284D928400C43273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PeriodicTable-iOS";
+			};
+			name = Debug;
+		};
+		E21C9D6F284D928400C43273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ8KLDD56B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SamiRafiSaleh.PeriodicTable-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PeriodicTable-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21C9D38284D928200C43273 /* Build configuration list for PBXProject "PeriodicTable-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C9D65284D928400C43273 /* Debug */,
+				E21C9D66284D928400C43273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21C9D67284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C9D68284D928400C43273 /* Debug */,
+				E21C9D69284D928400C43273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21C9D6A284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C9D6B284D928400C43273 /* Debug */,
+				E21C9D6C284D928400C43273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21C9D6D284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C9D6E284D928400C43273 /* Debug */,
+				E21C9D6F284D928400C43273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E21C9D35284D928200C43273 /* Project object */;
+}
