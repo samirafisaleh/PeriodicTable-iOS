@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C681924990FF6CC44FBFCB4 /* Pods_PeriodicTable_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983331BC135F23AB93ED9418 /* Pods_PeriodicTable_iOS.framework */; };
 		E21C9D41284D928300C43273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D40284D928300C43273 /* AppDelegate.swift */; };
 		E21C9D43284D928300C43273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D42284D928300C43273 /* SceneDelegate.swift */; };
 		E21C9D45284D928300C43273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D44284D928300C43273 /* ViewController.swift */; };
@@ -16,6 +17,14 @@
 		E21C9D58284D928400C43273 /* PeriodicTable_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D57284D928400C43273 /* PeriodicTable_iOSTests.swift */; };
 		E21C9D62284D928400C43273 /* PeriodicTable_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D61284D928400C43273 /* PeriodicTable_iOSUITests.swift */; };
 		E21C9D64284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9D63284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift */; };
+		E25E74662860E550006E6EF6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E25E74642860E550006E6EF6 /* Model.xcdatamodeld */; };
+		E2D1C605286114DF00F516F4 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1C604286114DF00F516F4 /* Parse.swift */; };
+		E2D1C6072861161A00F516F4 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = E2D1C6062861161900F516F4 /* test.csv */; };
+		E2D1C60A286119F500F516F4 /* ElementTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1C608286119F500F516F4 /* ElementTVCell.swift */; };
+		E2D1C60B286119F500F516F4 /* ElementTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1C609286119F500F516F4 /* ElementTVCell.xib */; };
+		E2D1C60E28611D0B00F516F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1C60D28611D0B00F516F4 /* Model.swift */; };
+		E2D1C61028611F7100F516F4 /* periodic_table.csv in Resources */ = {isa = PBXBuildFile; fileRef = E2D1C60F28611F7100F516F4 /* periodic_table.csv */; };
+		E2D1C612286124AE00F516F4 /* ElementViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1C611286124AE00F516F4 /* ElementViewerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97F7A4F3642AE62139AE3EAB /* Pods-PeriodicTable-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriodicTable-iOS.debug.xcconfig"; path = "Target Support Files/Pods-PeriodicTable-iOS/Pods-PeriodicTable-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		983331BC135F23AB93ED9418 /* Pods_PeriodicTable_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriodicTable_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF503DA2DC2872DA4E266B8A /* Pods-PeriodicTable-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriodicTable-iOS.release.xcconfig"; path = "Target Support Files/Pods-PeriodicTable-iOS/Pods-PeriodicTable-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E21C9D3D284D928200C43273 /* PeriodicTable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PeriodicTable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21C9D40284D928300C43273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21C9D42284D928300C43273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		E21C9D5D284D928400C43273 /* PeriodicTable-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PeriodicTable-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21C9D61284D928400C43273 /* PeriodicTable_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable_iOSUITests.swift; sourceTree = "<group>"; };
 		E21C9D63284D928400C43273 /* PeriodicTable_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E25E74652860E550006E6EF6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E2D1C604286114DF00F516F4 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		E2D1C6062861161900F516F4 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		E2D1C608286119F500F516F4 /* ElementTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementTVCell.swift; sourceTree = "<group>"; };
+		E2D1C609286119F500F516F4 /* ElementTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElementTVCell.xib; sourceTree = "<group>"; };
+		E2D1C60D28611D0B00F516F4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E2D1C60F28611F7100F516F4 /* periodic_table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = periodic_table.csv; sourceTree = "<group>"; };
+		E2D1C611286124AE00F516F4 /* ElementViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementViewerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C681924990FF6CC44FBFCB4 /* Pods_PeriodicTable_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F01DC05F9DDDC889E63A5F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F7A4F3642AE62139AE3EAB /* Pods-PeriodicTable-iOS.debug.xcconfig */,
+				CF503DA2DC2872DA4E266B8A /* Pods-PeriodicTable-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCB505161CDBA6B9F67184DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983331BC135F23AB93ED9418 /* Pods_PeriodicTable_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E21C9D34284D928200C43273 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				E21C9D56284D928400C43273 /* PeriodicTable-iOSTests */,
 				E21C9D60284D928400C43273 /* PeriodicTable-iOSUITests */,
 				E21C9D3E284D928200C43273 /* Products */,
+				6F01DC05F9DDDC889E63A5F9 /* Pods */,
+				CCB505161CDBA6B9F67184DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +139,15 @@
 		E21C9D3F284D928200C43273 /* PeriodicTable-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E2D1C6062861161900F516F4 /* test.csv */,
+				E2D1C60F28611F7100F516F4 /* periodic_table.csv */,
+				E2D1C60C286119F900F516F4 /* Table Cells */,
+				E2D1C603286114D500F516F4 /* Support */,
+				E25E74632860E542006E6EF6 /* Model */,
+				E25E74622860E532006E6EF6 /* View Controllers */,
+				E25E74612860E509006E6EF6 /* Views */,
 				E21C9D40284D928300C43273 /* AppDelegate.swift */,
 				E21C9D42284D928300C43273 /* SceneDelegate.swift */,
-				E21C9D44284D928300C43273 /* ViewController.swift */,
 				E21C9D46284D928300C43273 /* Main.storyboard */,
 				E21C9D49284D928300C43273 /* Assets.xcassets */,
 				E21C9D4B284D928300C43273 /* LaunchScreen.storyboard */,
@@ -127,6 +173,48 @@
 			path = "PeriodicTable-iOSUITests";
 			sourceTree = "<group>";
 		};
+		E25E74612860E509006E6EF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E25E74622860E532006E6EF6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E21C9D44284D928300C43273 /* ViewController.swift */,
+				E2D1C611286124AE00F516F4 /* ElementViewerVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E25E74632860E542006E6EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E25E74642860E550006E6EF6 /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2D1C603286114D500F516F4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1C604286114DF00F516F4 /* Parse.swift */,
+				E2D1C60D28611D0B00F516F4 /* Model.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E2D1C60C286119F900F516F4 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1C608286119F500F516F4 /* ElementTVCell.swift */,
+				E2D1C609286119F500F516F4 /* ElementTVCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21C9D67284D928400C43273 /* Build configuration list for PBXNativeTarget "PeriodicTable-iOS" */;
 			buildPhases = (
+				EC03B813599696F89171855E /* [CP] Check Pods Manifest.lock */,
 				E21C9D39284D928200C43273 /* Sources */,
 				E21C9D3A284D928200C43273 /* Frameworks */,
 				E21C9D3B284D928200C43273 /* Resources */,
@@ -231,8 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1C61028611F7100F516F4 /* periodic_table.csv in Resources */,
 				E21C9D4D284D928300C43273 /* LaunchScreen.storyboard in Resources */,
+				E2D1C60B286119F500F516F4 /* ElementTVCell.xib in Resources */,
 				E21C9D4A284D928300C43273 /* Assets.xcassets in Resources */,
+				E2D1C6072861161A00F516F4 /* test.csv in Resources */,
 				E21C9D48284D928300C43273 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +345,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC03B813599696F89171855E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriodicTable-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E21C9D39284D928200C43273 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1C60E28611D0B00F516F4 /* Model.swift in Sources */,
 				E21C9D45284D928300C43273 /* ViewController.swift in Sources */,
+				E2D1C605286114DF00F516F4 /* Parse.swift in Sources */,
+				E2D1C60A286119F500F516F4 /* ElementTVCell.swift in Sources */,
 				E21C9D41284D928300C43273 /* AppDelegate.swift in Sources */,
+				E2D1C612286124AE00F516F4 /* ElementViewerVC.swift in Sources */,
 				E21C9D43284D928300C43273 /* SceneDelegate.swift in Sources */,
+				E25E74662860E550006E6EF6 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +554,7 @@
 		};
 		E21C9D68284D928400C43273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F7A4F3642AE62139AE3EAB /* Pods-PeriodicTable-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +583,7 @@
 		};
 		E21C9D69284D928400C43273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF503DA2DC2872DA4E266B8A /* Pods-PeriodicTable-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -602,6 +726,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E25E74642860E550006E6EF6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E25E74652860E550006E6EF6 /* Model.xcdatamodel */,
+			);
+			currentVersion = E25E74652860E550006E6EF6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E21C9D35284D928200C43273 /* Project object */;
 }
